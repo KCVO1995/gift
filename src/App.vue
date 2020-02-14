@@ -1,28 +1,22 @@
 <template>
   <div id="app">
     <router-view/>
+    <audio src="assets/song.mp3" autoplay loop />
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  @import "~@/assets/style/reset.scss";
+  @import "~@/assets/style/helper.scss";
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  body {
+    font-family: $Font-hei;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
   }
-}
+
+
 </style>
