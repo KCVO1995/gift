@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.72e50f8e545577b2198038d90a5186e7.js"
+  "/precache-manifest.94cd3852d0db6b327b69c1620dc072e1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "gift"});
